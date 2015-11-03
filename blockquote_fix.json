@@ -1,0 +1,39 @@
+{
+  "version": "0.15",
+  "groups": [
+    {
+      "name": "pinkun",
+      "urls": [
+        "http://services.pinkun.com/forums/*/ShowPost.aspx"
+      ],
+      "substitutions": [
+        {
+          "input": "&lt;",
+          "inputType": "text",
+          "output": "<",
+          "caseSensitive": false
+        },
+        {
+          "input": "&gt;",
+          "inputType": "text",
+          "output": ">",
+          "caseSensitive": false
+        },
+        {
+          "input": "&amp;nbsp;",
+          "inputType": "text",
+          "output": "&nbsp;",
+          "caseSensitive": false
+        },
+        {
+          "input": "&nbsp;",
+          "inputType": "text",
+          "output": " ",
+          "caseSensitive": false
+        }
+      ],
+      "html": "inputoutput",
+      "enabled": true
+    }
+  ]
+}
